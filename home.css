@@ -1,0 +1,249 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none !important;
+    list-style: none !important;
+  }
+  body{
+    background-color: #eceef5;
+  }
+
+  /* nav start */
+  nav {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    background-color: #1e2a51;
+
+  }
+  
+  nav .my_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav h1.logo {
+    margin: 0.5rem!important;
+    font-size: 50px;
+    font-weight: 600;
+    
+  }
+  
+  nav h1.logo a {
+    color: rgb(164, 250, 250)!important;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  nav ul li a.active {
+    font-weight: 600;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    color: white;
+  }
+  
+  nav ul li a.btn {
+    color: #fff;
+    background-color: transparent;
+    display: block;
+    padding: 1rem;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    
+   
+  }
+  
+  nav ul li a.btn:hover {
+    border-color: aqua;
+    background-color:transparent;
+    color: mediumspringgreen;
+    
+  }
+  
+  nav ul li a.btn i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+   
+  }
+  
+
+li a:hover{
+    background-color:transparent;
+    border-color: aqua;
+    transition: 1s ease;
+    display: block;
+    padding: 1rem;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    
+}
+  
+  nav #toggleMenu {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+
+  }
+    /* Nav End */
+
+    /* start carousl*/
+    .carousel .carousel-inner {
+        height: 100%;
+        padding-left:  10px;
+        padding-right: 10px;
+      }
+      
+      .carousel .carousel-inner .carousel-item {
+        height: 100%;
+      }
+    /*-==========end carsoul===========*/
+    /*=========start about us========*/
+ 
+    .aboutUs{
+    margin-bottom: 10px;
+    padding: 0 8px;
+    padding-left: 20px;
+   }
+    .text {
+        background-color: rgba(29, 70, 204, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        text-align: center;
+        transform:translate(10%, 10%);
+        width: 80%;
+        padding: 20px;
+        text-align: 
+        }
+   .gis{
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    text-decoration:line-through;
+    text-shadow: 1cm;
+   }
+
+    div.card{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+       
+    
+    }
+    .row{
+        display: flex;
+      
+    }
+    .column {
+        flex-basis: 300px;
+        flex-wrap: wrap;
+        width: 300px;
+        justify-content: center;  
+        margin-bottom: 10px;
+        padding: 0 30px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        height: 300px 1fr;
+           
+          }
+          
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 30px;
+           
+          }
+          
+          .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+          }
+          
+          .container {
+            padding: 10px;
+          }
+          
+          .title {
+            color: grey;
+          }
+          
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+           
+            width: 100%;
+          }
+          
+          .button:hover {
+            background-color: #555;
+          }
+          .img {
+            height: 100%;
+            object-fit: cover;
+          }
+         
+  /*End About Us*/
+
+  /* ======Start Contact Us=======*/
+
+ .contact{
+  
+    color:#1e2a51;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+ 
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+    transition: 0.3s ease;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-bottom: 10px;
+
+  }
+
+  .fa-instagram{
+background: #dd277c;
+color: white;
+margin-bottom: 10px;
+
+  }
+.fa-linkedin{
+    background: #183ee6;
+    color: white;
+    margin-bottom: 10px;
+
+}
